@@ -17,6 +17,11 @@
 		52BE7D1B2BA617B500F91300 /* StudySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D1A2BA617B500F91300 /* StudySwiftUIUITests.swift */; };
 		52BE7D1D2BA617B500F91300 /* StudySwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D1C2BA617B500F91300 /* StudySwiftUIUITestsLaunchTests.swift */; };
 		52BE7D2A2BA617CC00F91300 /* StudyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D292BA617CC00F91300 /* StudyModifier.swift */; };
+		52BE7D2C2BA61D7E00F91300 /* StudyCutomView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D2B2BA61D7E00F91300 /* StudyCutomView1.swift */; };
+		52BE7D2E2BA624CA00F91300 /* StudyCutomContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D2D2BA624CA00F91300 /* StudyCutomContainer.swift */; };
+		52BE7D302BA62BEB00F91300 /* StudyBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D2F2BA62BEB00F91300 /* StudyBinding.swift */; };
+		52BE7D322BA62F3A00F91300 /* StudyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D312BA62F3A00F91300 /* StudyList.swift */; };
+		52BE7D342BA63A7200F91300 /* StudyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE7D332BA63A7200F91300 /* StudyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		52BE7D1A2BA617B500F91300 /* StudySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIUITests.swift; sourceTree = "<group>"; };
 		52BE7D1C2BA617B500F91300 /* StudySwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52BE7D292BA617CC00F91300 /* StudyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyModifier.swift; sourceTree = "<group>"; };
+		52BE7D2B2BA61D7E00F91300 /* StudyCutomView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCutomView1.swift; sourceTree = "<group>"; };
+		52BE7D2D2BA624CA00F91300 /* StudyCutomContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCutomContainer.swift; sourceTree = "<group>"; };
+		52BE7D2F2BA62BEB00F91300 /* StudyBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBinding.swift; sourceTree = "<group>"; };
+		52BE7D312BA62F3A00F91300 /* StudyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyList.swift; sourceTree = "<group>"; };
+		52BE7D332BA63A7200F91300 /* StudyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				52BE7D042BA617B400F91300 /* LaunchScreen.storyboard */,
 				52BE7D072BA617B400F91300 /* Info.plist */,
 				52BE7D292BA617CC00F91300 /* StudyModifier.swift */,
+				52BE7D2B2BA61D7E00F91300 /* StudyCutomView1.swift */,
+				52BE7D2D2BA624CA00F91300 /* StudyCutomContainer.swift */,
+				52BE7D2F2BA62BEB00F91300 /* StudyBinding.swift */,
+				52BE7D312BA62F3A00F91300 /* StudyList.swift */,
+				52BE7D332BA63A7200F91300 /* StudyState.swift */,
 			);
 			path = StudySwiftUI;
 			sourceTree = "<group>";
@@ -263,8 +278,13 @@
 			files = (
 				52BE7CFE2BA617B300F91300 /* ViewController.swift in Sources */,
 				52BE7CFA2BA617B300F91300 /* AppDelegate.swift in Sources */,
+				52BE7D342BA63A7200F91300 /* StudyState.swift in Sources */,
 				52BE7D2A2BA617CC00F91300 /* StudyModifier.swift in Sources */,
+				52BE7D302BA62BEB00F91300 /* StudyBinding.swift in Sources */,
 				52BE7CFC2BA617B300F91300 /* SceneDelegate.swift in Sources */,
+				52BE7D2C2BA61D7E00F91300 /* StudyCutomView1.swift in Sources */,
+				52BE7D2E2BA624CA00F91300 /* StudyCutomContainer.swift in Sources */,
+				52BE7D322BA62F3A00F91300 /* StudyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +470,6 @@
 				INFOPLIST_FILE = StudySwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +496,6 @@
 				INFOPLIST_FILE = StudySwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
